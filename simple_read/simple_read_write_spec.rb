@@ -1,4 +1,4 @@
-require_relative 'my_script' # Replace 'my_script' with the actual filename
+require_relative 'simple_read_write' # Replace 'my_script' with the actual filename
 
 RSpec.describe 'MyScript' do
   describe '#read_file_content' do
