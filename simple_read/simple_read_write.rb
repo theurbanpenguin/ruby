@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 # code
+#
 FILE_LOCATION = 'sample.txt'
 def readfile
   content = File.read(FILE_LOCATION)
