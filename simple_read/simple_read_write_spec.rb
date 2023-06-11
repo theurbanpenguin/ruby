@@ -1,5 +1,5 @@
-# frozen_string_literal: true
 require_relative 'my_script' # Replace 'my_script' with the actual filename
+
 RSpec.describe 'MyScript' do
   describe '#read_file_content' do
     it 'reads the first line of the file and checks for "welcome ruby"' do
@@ -19,4 +19,5 @@ RSpec.describe 'MyScript' do
     end
   end
 end
+
 
